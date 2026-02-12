@@ -1,0 +1,7 @@
+id: centrality
+title: Zentralität
+range: [0, 1]
+left: dezentral
+right: zentral
+meaning: >
+  Grad der Zentralisierung von Entscheidungsbefugnissen.

@@ -1,0 +1,8 @@
+id: communication_intensity
+title: Kommunikationsintensität
+range: [0, 1]
+left: gering
+right: hoch
+meaning: >
+  Grad der notwendigen menschlichen Verständigung.
+  0 = nahezu rein artefaktbasiert, 1 = stark dialoggetrieben.

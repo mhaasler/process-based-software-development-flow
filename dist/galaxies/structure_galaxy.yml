@@ -1,0 +1,25 @@
+id: structure_galaxy
+title: Architektur & Struktur
+drill_from: structure
+root: structure
+hide_root: true
+
+stars:
+  - architecture_boundaries
+  - interfaces_and_contracts
+  - module_composition
+  - runtime_execution_authority
+  - observability_design
+  - quality_gates
+  - change_control
+
+gradients:
+  - explicitness
+  - stability
+  - centrality
+  - automatable
+  - communication_intensity
+
+description: >
+  Architektur als Entscheidungsraum: Boundaries, Contracts, Composition und Gates – so,
+  dass Ausführung und Evolution kontrollierbar bleiben.

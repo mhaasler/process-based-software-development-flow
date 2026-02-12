@@ -1,0 +1,19 @@
+id: spec_driven_galaxy
+title: Spec-Driven Development
+drill_from: implementation
+
+root: implementation
+
+stars:
+  - process
+  - governance
+  - observation_transparency
+
+gradients:
+  - explicitness
+  - automatable
+  - stability
+
+description: >
+  Von der Ausführung zurück zur Spezifikation: Welche Entscheidungen müssen explizit sein,
+  wie werden Specs zur Quelle der Wahrheit, und wie werden Änderungen kontrolliert.

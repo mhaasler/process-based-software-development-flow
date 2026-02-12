@@ -1,0 +1,24 @@
+id: process_galaxy
+title: Prozess-Galaxie
+root: process
+hide_root: true
+drill_from: process
+
+stars:
+  - problem_framing
+  - requirements
+  - specification
+  - planning_and_work
+  - execution
+  - review_and_quality
+  - feedback_and_learning
+
+gradients:
+  - explicitness
+  - communication_intensity
+  - automatable
+  - stability
+
+description: >
+  Sub-Galaxie mit Fokus auf Prozessentscheidungen.
+  Zeigt Struktur- vs. Explizitheits-Spannung sowie Feedbackmechaniken.

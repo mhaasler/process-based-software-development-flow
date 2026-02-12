@@ -1,0 +1,24 @@
+id: communication_galaxy
+title: Kommunikation
+drill_from: communication
+root: communication
+hide_root: true
+
+stars:
+  - shared_language_and_models
+  - artifacts_and_truth_sources
+  - decision_records
+  - communication_channels
+  - ambiguity_and_alignment
+  - meeting_load_and_latency
+
+gradients:
+  - explicitness
+  - communication_intensity
+  - automatable
+  - stability
+  - centrality
+
+description: >
+  Kommunikation als Systemkomponente: Sprache, Artefakte, Entscheidungsprotokolle und Kanalregeln –
+  so, dass KI Beschleunigung bringt, ohne Wahrheit, Ownership und Evolution zu zerstören.

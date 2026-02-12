@@ -1,0 +1,11 @@
+gradients:
+  - id: automatable
+    file: automatable.yml
+  - id: centrality
+    file: centrality.yml
+  - id: communication_intensity
+    file: communication_intensity.yml
+  - id: explicitness
+    file: explicitness.yml
+  - id: stability
+    file: stability.yml
