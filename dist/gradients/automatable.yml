@@ -1,8 +1,0 @@
-id: automatable
-title: Automatisierbarkeit
-range: [0, 1]
-left: menschlich
-right: maschinell
-meaning: >
-  Grad, in dem Entscheidungen oder Ausführung automatisiert
-  bzw. durch KI unterstützt werden können.

@@ -12,7 +12,10 @@ run_dir="${BUNDLE_DIR}/${ts}"
 mkdir -p "$run_dir"
 
 # collect inbox files (exclude _done/_bundle)
-mapfile -t files < <(find "$INBOX_DIR" -maxdepth 1 -type f -name "*.md" | sort)
+files=()
+while IFS= read -r file; do
+  files+=("$file")
+done < <(find "$INBOX_DIR" -maxdepth 1 -type f -name "*.md" | sort)
 
 if [ "${#files[@]}" -eq 0 ]; then
   echo "No inbox items found in ${INBOX_DIR}"

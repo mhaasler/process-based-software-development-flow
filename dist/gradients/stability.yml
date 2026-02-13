@@ -1,8 +1,0 @@
-id: stability
-title: Stabilität
-range: [0, 1]
-left: adaptiv
-right: stabil
-meaning: >
-  Grad der strukturellen Beständigkeit.
-  0 = häufige Anpassung, 1 = langfristig stabil.
