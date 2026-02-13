@@ -1,0 +1,56 @@
+actionability_and_ownership	Actionability & Ownership	actionability_and_ownership.md
+ai_assisted_workflow	KI-gestützter Workflow (Copilot/Agents)	ai_assisted_workflow.md
+ambiguity_and_alignment	Ambiguität & Alignment	ambiguity_and_alignment.md
+architecture_boundaries	Boundaries & Verantwortlichkeiten	architecture_boundaries.md
+artifacts_and_truth_sources	Artefakte & Truth Sources	artifacts_and_truth_sources.md
+auditability_and_traceability	Auditability & Traceability	auditability_and_traceability.md
+automation_and_scripts	Automatisierung & Skripte (Gates, Generators)	automation_and_scripts.md
+change_control	Change Control & Evolution	change_control.md
+communication	Kommunikation	communication.md
+communication_channels	Kanäle & Synchronisation	communication_channels.md
+constitution	Constitution (Governance Minimum)	constitution.md
+core_decisions	Struktur- & Regelentscheidungen	core_decisions.md
+dashboards_and_queries	Dashboards & Queries	dashboards_and_queries.md
+data_handling_and_privacy	Datenhandling & Privacy	data_handling_and_privacy.md
+decision_process	Entscheidungsprozess	decision_process.md
+decision_records	Entscheidungsprotokolle (ADRs)	decision_records.md
+dev_secrets_and_env	Dev-Secrets & Environment Hygiene	dev_secrets_and_env.md
+execution	Ausführung	execution.md
+feedback_and_learning	Feedback & Lernen	feedback_and_learning.md
+governance	Governance	governance.md
+governance_feedback_loops	Governance-Feedback-Loops	governance_feedback_loops.md
+implementation	Umsetzung	implementation.md
+incidents_and_postmortems	Incidents & Postmortems	incidents_and_postmortems.md
+interfaces_and_contracts	Interfaces & Contracts	interfaces_and_contracts.md
+knowledge_ops_inbox_and_curation	Knowledge Ops (Inbox → Curation)	knowledge_ops_inbox_and_curation.md
+least_privilege_and_access	Least Privilege & Access Control	least_privilege_and_access.md
+local_dev_environment	Lokales Dev-Environment (Setup & Parität)	local_dev_environment.md
+meeting_load_and_latency	Meeting-Last & Entscheidungs-Latenz	meeting_load_and_latency.md
+module_composition	Module & Composition Root	module_composition.md
+observability_design	Observability als Architektur	observability_design.md
+observation_transparency	Beobachtung & Transparenz	observation_transparency.md
+ownership_and_raci	Ownership (RACI / Verantwortungen)	ownership_and_raci.md
+planning_and_work	Planung & Arbeitspakete	planning_and_work.md
+policy_system	Policies & Regelwerk (Verbindlichkeit)	policy_system.md
+problem_framing	Problem Framing	problem_framing.md
+process	Prozess	process.md
+quality_gates	Quality Gates & Policies	quality_gates.md
+reproducible_builds	Reproduzierbare Builds & Toolchain Pinning	reproducible_builds.md
+requirements	Anforderungen	requirements.md
+review_and_quality	Review & Qualität	review_and_quality.md
+risk_and_compliance	Risiko, Compliance & Ausnahmeprozesse	risk_and_compliance.md
+runbooks_and_playbooks	Runbooks & Playbooks	runbooks_and_playbooks.md
+runtime_execution_authority	Runtime & Execution Authority	runtime_execution_authority.md
+sandboxing_and_isolation	Sandboxing & Isolation	sandboxing_and_isolation.md
+secrets_and_passwords	Secrets & Passwort-Management (z.B. KeePass)	secrets_and_passwords.md
+security_incidents	Security Incidents & Response	security_incidents.md
+security_safety	Security & Safety	security_safety.md
+shared_language_and_models	Gemeinsame Sprache & Modelle	shared_language_and_models.md
+signals_and_slos	Signale & SLOs	signals_and_slos.md
+specification	Spezifikation	specification.md
+structure	Struktur	structure.md
+supply_chain_security	Supply-Chain Security	supply_chain_security.md
+telemetry_design	Telemetrie-Design (Logs/Traces/Metriken)	telemetry_design.md
+threat_modeling	Threat Modeling & Risk Decisions	threat_modeling.md
+tooling_dev_environment	Tooling & Dev-Environment	tooling_dev_environment.md
+transparency_and_access	Transparenz, Zugriff & Datenschutz	transparency_and_access.md
