@@ -26,6 +26,8 @@ Ein Build-Skript (`build.mjs`) erzeugt:
 - `dist/graph.json`: Die berechnete Graph-Struktur
 - Statische Assets für ein interaktives UI
 
+![Knowledge Graph UI Screenshot](docs/assets/ui_screenshot.png)
+
 ### Gatekeeper
 Validierungsskripte prüfen:
 - Keine toten Links
