@@ -1,0 +1,8 @@
+flowchart LR
+  S[Spec / Use Case / Regeln] --> T[Tests ableiten]
+  S --> C[Code ableiten]
+  C --> B[Build]
+  T --> B
+  B --> P[Preview / Deploy]
+  P --> F[Feedback]
+  F --> S

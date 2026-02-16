@@ -1,0 +1,7 @@
+flowchart LR
+  B1[Branch A<br/>Spec-Variante] --> CI[CI: Validate Spec]
+  B2[Branch B<br/>Spec-Variante] --> CI
+  CI --> GEN[Generate Code/Tests/UI]
+  GEN --> PV[Preview Environments]
+  PV --> FB[Stakeholder Feedback]
+  FB --> MAIN[Merge best variant]

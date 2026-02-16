@@ -1,0 +1,11 @@
+flowchart TB
+  subgraph WF["Wasserfall"]
+    W1[Große Spezifikation] --> W2[Lange Implementierung]
+    W2 --> W3[Test am Ende]
+    W3 --> W4[Feedback spät]
+  end
+  subgraph SDD["Spec-Driven (inkrementell)"]
+    S1[Kleine Spec-Änderung] --> S2[Sofort: Code+Tests+Preview]
+    S2 --> S3[Feedback früh]
+    S3 --> S1
+  end

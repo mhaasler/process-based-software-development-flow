@@ -1,0 +1,12 @@
+flowchart TB
+  subgraph HH["Agilität Mensch <-> Mensch"]
+    W[Workshops / Gespräche] --> D1[Entscheidungen]
+  end
+
+  subgraph HM["Agilität Mensch <-> Maschine"]
+    D1 --> Spec["Specs (Git)"]
+    Spec --> Gen["Generierung (Code/Tests/UI)"]
+    Gen --> Prev["Preview / Running Software"]
+    Prev --> Learn["Learning / Feedback"]
+    Learn --> D1
+  end

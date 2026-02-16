@@ -1,0 +1,6 @@
+.DS_Store
+.venv/
+node_modules/
+vendor/
+.ai_runs/
+*.log

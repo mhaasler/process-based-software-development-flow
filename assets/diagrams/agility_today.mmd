@@ -1,0 +1,10 @@
+flowchart LR
+  S[Stakeholder] <--> P[Product / PO]
+  P <--> D[Developers]
+  D --> C[Code]
+  C --> R[Release]
+  R --> F[Feedback]
+  F --> S
+  note1((Kommunikation<br/>kompensiert Unschärfe))
+  S --- note1
+  D --- note1
