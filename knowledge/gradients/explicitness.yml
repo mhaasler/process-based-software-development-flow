@@ -1,8 +1,0 @@
-id: explicitness
-title: Explizitheit
-range: [0, 1]
-left: implizit
-right: formalisiert
-meaning: >
-  Grad der formalen Fixierung von Entscheidungen.
-  0 = überwiegend implizit, 1 = vollständig formalisiert/maschinenlesbar.
