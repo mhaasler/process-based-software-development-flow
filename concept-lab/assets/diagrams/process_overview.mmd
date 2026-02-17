@@ -1,0 +1,70 @@
+graph TD
+    %% Roles and Agents
+    Human([👤 Human Stakeholder/Dev])
+    Architect[🤖 Architect Agent]
+    Planner[🤖 Planner Agent]
+    Implementer[🤖 Implementer Agent]
+    Tester[🤖 Tester Agent]
+    Reviewer[🤖 Reviewer Agent]
+    Orchestrator{⚙️ Orchestrator}
+
+    %% Artifacts
+    Idea[💡 Idea / Requirement]
+    Spec[📄 spec.md / constitution.md]
+    Plan[📄 plan.md / tasks.md]
+    Code[💻 Code Changes]
+    Tests[🧪 Test Cases]
+    ReviewLog[📝 review.md]
+
+    %% Flow
+    Idea --> Human
+    Human -- "Define Behavior & Rules" --> Spec
+    Spec --> Architect
+    Architect -- "Refine & Structure" --> Spec
+    
+    subgraph Planning
+        Spec --> Planner
+        Planner -- "Breakdown to Tasks" --> Plan
+    end
+
+    subgraph Execution Loop ["Execution Loop (Per Task)"]
+        Plan --> Orchestrator
+        Orchestrator -- "Assign Task" --> Implementer
+        Implementer -- "Generate Patch" --> Code
+        Code --> Tester
+        Tester -- "Generate Tests" --> Tests
+        
+        test_gate{🛡️ Gates}
+        Tests --> test_gate
+        Code --> test_gate
+        
+        test_gate -- "Fail (Format/Lint/Test)" --> Orchestrator
+        Orchestrator -- "Retry + Feedback" --> Implementer
+    end
+
+    test_gate -- "Pass" --> ReviewSelection{All Tasks Done?}
+    ReviewSelection -- "No" --> Orchestrator
+    
+    ReviewSelection -- "Yes" --> ReviewPhase
+    
+    subgraph ReviewPhase ["Review Phase"]
+        Spec --> Reviewer
+        Code --> Reviewer
+        Tests --> Reviewer
+        Reviewer -- "Analyze vs Spec" --> ReviewLog
+        
+        HumanReview([👤 Human Review])
+        ReviewLog --> HumanReview
+        HumanReview -- "Approve" --> Merge((🔀 Merge))
+        HumanReview -- "Reject" --> Human
+    end
+
+    %% Styling
+    classDef human fill:#ff9,stroke:#333,stroke-width:2px;
+    classDef agent fill:#9f9,stroke:#333,stroke-width:2px;
+    classDef artifact fill:#eee,stroke:#999,stroke-width:1px,stroke-dasharray: 5 5;
+    classDef process fill:#fff,stroke:#333,stroke-width:1px;
+
+    class Human,HumanReview human;
+    class Architect,Planner,Implementer,Tester,Reviewer,Orchestrator agent;
+    class Idea,Spec,Plan,Code,Tests,ReviewLog artifact;
