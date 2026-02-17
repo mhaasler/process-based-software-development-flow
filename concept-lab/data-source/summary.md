@@ -1,5 +1,6 @@
 ## KI‑fähige, spec‑getriebene Softwareentwicklung
-Ein konsolidiertes, kapitelbasiertes Dokument mit Struktur, Unterpunkten und vertiefenden Erläuterungen aus allen bereitgestellten Quellen
+
+Mit KI verschiebt sich der Schwerpunkt von der Implementierung hin zur Gestaltung von Entscheidungs- und Ausführungsprozessen.
 
 ---
 
